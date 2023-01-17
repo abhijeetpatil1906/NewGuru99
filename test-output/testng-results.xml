@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-01-15T21:55:10 IST" name="Default suite" finished-at="2023-01-15T21:56:09 IST" duration-ms="58820">
+    <groups>
+      <group name="RegisterPage">
+        <method signature="RegisterPageTest.validateRegisterFunctionality()[pri:0, instance:TestLayer.RegisterPageTest@2805d709]" name="validateRegisterFunctionality" class="TestLayer.RegisterPageTest"/>
+      </group> <!-- RegisterPage -->
+    </groups>
+    <test started-at="2023-01-15T21:55:10 IST" name="Default test" finished-at="2023-01-15T21:56:09 IST" duration-ms="58820">
+      <class name="TestLayer.RegisterPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestLayer.RegisterPageTest@2805d709]" started-at="2023-01-15T21:55:10 IST" name="setUp" finished-at="2023-01-15T21:55:56 IST" duration-ms="45934" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateRegisterFunctionality()[pri:0, instance:TestLayer.RegisterPageTest@2805d709]" started-at="2023-01-15T21:55:56 IST" name="validateRegisterFunctionality" finished-at="2023-01-15T21:56:09 IST" duration-ms="12782" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateRegisterFunctionality -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestLayer.RegisterPageTest@2805d709]" started-at="2023-01-15T21:56:09 IST" name="tearDown" finished-at="2023-01-15T21:56:09 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestLayer.RegisterPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
