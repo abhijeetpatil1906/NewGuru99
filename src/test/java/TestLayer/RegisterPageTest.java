@@ -1,5 +1,6 @@
 package TestLayer;
 
+import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
@@ -27,6 +28,12 @@ public class RegisterPageTest extends BaseClass {
 	@AfterTest
 	public void tearDown() {
 		//driver.close();
+	}
+	
+	@Test
+	public void name() {
+		
+		Assert.assertEquals(true, true);
 	}
 
 }
